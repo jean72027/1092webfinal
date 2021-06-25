@@ -1,0 +1,30 @@
+html{
+	background-color: #FFF4E4;
+}
+.pic{
+	width: 100%;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #D3A180;
+    border-color: #B3504D;
+}
+
+.top{
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 2px solid #B3504D;
+}
+
+.table td, .table th {
+	font-size: 12px;
+	background-color: #F3E2DC;
+    padding: .75rem;
+    vertical-align: middle;
+    border-top: 1px solid #B3504D;
+}

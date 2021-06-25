@@ -1,0 +1,163 @@
+body{
+	background-image: url(../images/BG.jpg);
+	background-size: cover;	
+	background-position: center center; 
+	height: 100vh;
+	display: flex;
+}
+
+
+.navbar{
+	height: 140px;
+}
+
+nav{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	background-color: white;
+}
+
+.logo{
+	height: 130px;
+	width: 130px;
+}
+
+.nav-mine .nav-link{
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 28px;
+	color:black;
+}
+
+.nav-mine .active{
+	justify-content: center;
+	align-items: center;
+	background-color:#EFE3D6;
+	border-radius: 28px;
+}
+
+.se{
+	background-image: url(../images/BG.jpg);
+	background-size: cover;	
+	background-position: center center; 
+	height: 100vh;
+	background-attachment: scroll;
+	overflow-y: scroll;
+	position: relative;
+	margin-top: 140px;
+}
+
+
+article{
+	position: relative;
+	background-color: rgba(255,255,255,0.6);
+}
+
+/*.article6{
+	margin-bottom: 30px;
+}*/
+
+.iptitle{
+	font-size: 24px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.ipcontent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1100px;
+	height: 550px;
+}
+
+.ipcontent2{
+	display: flex;
+	flex-direction: column;
+	width: 1100px;
+	height: 500px;
+	align-items: center;
+	margin:0;
+}
+
+.ipcontent3{
+	display: flex;
+	flex-direction: column;
+	width: 1100px;
+	height: 550px;
+	align-items: center;
+	margin:0;
+}
+
+.inputpic{
+	width: 210px;
+	height: 210px;
+}
+
+.intext{
+	font-size: 12px;
+}
+
+
+.inpw{
+	width: 60px;
+	height: 30px;
+	font-size: 12px;
+}
+
+.input-group{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 250px;
+}
+
+.iprow{
+	display: flex;
+	flex-direction: row;
+}
+
+.iprow2{
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	margin-top: 15px;
+}
+
+.bannerpic{
+	width: 95%;
+}
+
+.btn1{
+	width: 100px;
+	height: 45px;
+	margin-top: 650px;
+	margin-right: 40px;
+	background-color:#B3504D;
+	color:white;
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+.btn2{
+	background-color:#D39480;
+	color:white;
+}
+
+.title-text{
+	font-size: 24px;
+	font-weight:bold;
+}
+
+.modal-content{
+	background-color: #FFF4E4;
+}
+
+.modal-body{
+	background-color: #fff;
+	border-radius: 15px;
+}
